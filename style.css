@@ -1,0 +1,193 @@
+html, body{
+    height: 100%;
+  }
+ .wrapper { 
+              background-image: url('images/hustle.jpg') ;
+              background-position: center center;
+              background-repeat:  no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+              background-color: #999;
+              
+             
+    
+  }
+  
+  div, body{
+    margin: 0;
+    padding: 0;
+    font-family: exo, sans-serif;
+    
+  }
+  .wrapper {
+    height: 100%; 
+    width: 100%; 
+  }
+  
+  .message {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%; 
+    height:45%;
+    bottom: 0; 
+    display: block;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 0.5em;
+  }
+  
+
+
+
+  
+  .wrappers   {
+    height: 130%; 
+    width: 100%; 
+              background-image: url("images/macb.jpg")  ;
+              
+          
+            
+              background-position: center center fixed;
+              background-repeat:  no-repeat;
+              background-attachment: fixed;
+              background-size:  cover;
+              color: #E0E7EF;
+              
+  }
+  
+  .wrappers h2{
+      font-size: 62px;
+  }
+
+  
+  
+
+
+
+  body div div {
+    width: 620px;
+    min-width: 400px;
+    margin: 0 auto;
+
+}
+
+   .wrappers ul {
+        width: 620px;
+        margin: 80px auto;
+        list-style: none;
+        float: left;
+        padding: 10px;
+    }
+
+     .wrappers   li {
+            width: 200px;
+            float: left;
+            margin: 0 10px 10px 0;
+            -webkit-filter: sepia(.7);
+            position: relative;
+            -webkit-transition: .8s;
+        }
+
+        .wrappers    li:hover {
+                -webkit-filter: sepia(0);
+                z-index: 1;
+            }
+
+  .wrappers      li:nth-child(3n) {
+            margin-right: 4;
+        }
+
+     .wrappers   li:nth-last-child(-n+3) {
+            margin-bottom: 0;
+        }
+
+         .wrappers   img {
+                -webkit-transition: .8s;
+                max-width: 100%;
+                box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+                float: left;
+                border: 8px solid rgb(90, 46, 46);
+                border-bottom-width: 30px;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+            }
+
+    
+          .wrappers  li:nth-child(1) img {
+                -webkit-transform: translate(10px, -20px) rotate(-10deg);
+            }
+
+           .wrappers li:nth-child(2) img {
+                -webkit-transform: translate(-20px, -90px) rotate(10deg);
+            }
+
+          .wrappers  li:nth-child(3) img {
+                -webkit-transform: translate(-20px, 5px) rotate(13deg);
+            }
+
+         .wrappers   li:nth-child(4) img {
+                -webkit-transform: translate(70px, -70px) rotate(5deg);
+            }
+
+          .wrappers  li:nth-child(5) img {
+                -webkit-transform: translate(-30px, 50px) rotate(-10deg);
+            }
+
+         .wrappers   li:nth-child(6) img {
+                -webkit-transform: translate(-40px,-130px) rotate(51deg);
+            }
+
+             .wrappers  li img:hover {
+                    box-shadow: 0 0 5px rgba(0, 0, 0, .5), 0 0 15px rgba(0, 0, 0, .7);
+                    -webkit-transform: scale(1.5);
+                }
+
+
+
+
+
+
+                .strength   {
+
+                    height: 100%; 
+                    width: 100%; 
+                              background-image: url("images/bridge.jpg") ;
+                              
+                          
+                            
+                              background-position: center center fixed;
+                              background-repeat:  no-repeat;
+                              background-attachment: fixed;
+                              background-size:  cover;
+                              opacity: 0.9;
+                              font-size: 2.7em;
+                              color: rgb(238, 230, 230);
+                             
+                              -webkit-animation-delay: 15s;
+                }
+                
+                .strength h2{
+                    font-size: 72px;
+                }
+
+             
+
+                .page-header{
+                    font-size: 3em;
+                    color: #E0E7EF;
+                    animation-delay:  3s;
+                }
+
+                .message{
+                    animation-delay: 2s;
+                }
+
+
+           
+                              
+                
+                  
+
